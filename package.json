@@ -1,0 +1,29 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/db/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/db/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.16",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.10",
+    "sharp": "^0.33.2",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
